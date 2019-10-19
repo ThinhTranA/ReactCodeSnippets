@@ -1,23 +1,13 @@
-function getNum() {
-	return Math.floor(Math.random() * 10) + 1;
-}
-
-class NumPicker extends React.Component {
-	render() {
-		const num = getNum();
-		return (
+class App extends React.Component{
+	render(){
+		return(
 			<div>
-				<h1>Your number is {num}</h1>
-				<p>{num === 7 ? 'Congrats': 'Try Again'}</p>
-				{
-					num === 7 && <img src="https://i.giphy.com/media/nXx0jZrbnbRxS/giphy.webp"></img>  //equivalent
-					//num === 7 ? <img src="https://i.giphy.com/media/nXx0jZrbnbRxS/giphy.webp"></img> : null
-				}
+				<NumPicker to="a" from="b"/>
+				<Hello to="a" from="b" num={3}/>
 			</div>
-
-		);
+		)
 	}
 }
 
 
-ReactDOM.render(<NumPicker />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
