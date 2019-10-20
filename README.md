@@ -2,6 +2,6 @@
 * Poke API   
 https://pokeapi.co/
 
-# Project
+# Projects:
 ## Pokedex:  
 <img src="IMAGES/pokedex.gif">
