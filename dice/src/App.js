@@ -1,15 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Die from './Die'
+import RollDie  from './RollDice'
 
 function App() {
   return (
     <div className="App">
-     <Die face="five"></Die>
-     <Die face="six"></Die>
-     <Die face="three"></Die>
-     <Die face="two"></Die>
+     <RollDie/>
     </div>
   );
 }
