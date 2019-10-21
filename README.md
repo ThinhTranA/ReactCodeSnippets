@@ -3,6 +3,9 @@
 https://pokeapi.co/
 
 # Projects:
+## Lotto ball:
+<img src="IMAGES/lotto.gif">
+
 ## Dice:
 <img src="IMAGES/dice.gif">
 
