@@ -3,6 +3,9 @@
 https://pokeapi.co/
 
 # Projects:
+## Hangman:
+<img src="IMAGES/hangman.gif">
+
 ## Lotto ball:
 <img src="IMAGES/lotto.gif">
 
