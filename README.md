@@ -3,6 +3,9 @@
 https://pokeapi.co/
 
 # Projects:
+## Light out:
+<img src="IMAGES/lightout.gif">
+
 ## Hangman:
 <img src="IMAGES/hangman.gif">
 
