@@ -3,6 +3,9 @@
 https://pokeapi.co/
 
 # Projects:
+## Todo app:
+<img src="IMAGES/todoapp.gif">
+
 ## Light out:
 <img src="IMAGES/lightout.gif">
 
