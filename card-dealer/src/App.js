@@ -5,7 +5,7 @@ import Deck from './Deck'
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Deck/>
     </div>
   );

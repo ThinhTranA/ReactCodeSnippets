@@ -3,6 +3,9 @@
 https://pokeapi.co/
 
 # Projects:
+## Card dealer:
+<img src="IMAGES/carddealer.gif">
+
 ## Todo app:
 <img src="IMAGES/todoapp.gif">
 
