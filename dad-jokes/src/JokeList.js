@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import axios from 'axios'
+import axios from 'axios';
+import './JokeList.css';
 
 export default class JokeList extends Component {
 
@@ -9,31 +10,38 @@ export default class JokeList extends Component {
 
     constructor(props) {
         super(props)
-    
+
         this.state = {
-             jokes: []
+            jokes: []
         }
     }
-    
 
-    async componentDidMount(){
+
+    async componentDidMount() {
         //load jokes
         let jokes = [];
-        while(jokes.length < this.props.numJokesToGet){
+        while (jokes.length < this.props.numJokesToGet) {
             let res = await axios.get("https://icanhazdadjoke.com/", {
-                headers: {Accept: "application/json"}
+                headers: { Accept: "application/json" }
             });
 
             jokes.push(res.data.joke);
             console.log(jokes)
         }
-        this.setState({jokes: jokes});
+        this.setState({ jokes: jokes });
     }
 
     render() {
         return (
             <div className="JokeList">
-                <h1>Dad Jokes</h1>
+                <div className="JokeList-sidebar">
+                    <h1 className="JokeList-title">
+                        <span>Dad</span> Jokes
+                    </h1>
+
+                    <img src='https://assets.dryicons.com/uploads/icon/svg/8927/0eb14c71-38f2-433a-bfc8-23d9c99b3647.svg' />
+                    <button className="JokeList-getmore">New Jokes</button>
+                </div>
                 <div className="JokeList-jokes">
                     {this.state.jokes.map(j => (
                         <div>{j}</div>
