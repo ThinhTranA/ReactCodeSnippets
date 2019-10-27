@@ -3,6 +3,9 @@
 https://pokeapi.co/
 
 # Projects:
+## Dad jokes:
+<img src="IMAGES/dadjokes.gif">
+
 ## Card dealer:
 <img src="IMAGES/carddealer.gif">
 
