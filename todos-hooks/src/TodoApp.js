@@ -10,13 +10,8 @@ import TodoForm from "./TodoForm";
 import uuid from "uuid/v4";
 
 function TodoApp() {
-  const initialTodos = JSON.parse(window.localStorage.getItem('todos') || "[]");
+  const initialTodos = [{id: 1, task: "Pet a Monkey", completed: false}]
   const {todos, addTodo,removeTodo, toggleTodo, editTodo} = useTodoState(initialTodos);
-  // const initialTodos = [
-  //   { id: 1, task: "Clean Fishtank", completed: false },
-  //   { id: 2, task: "Wash Car", completed: true },
-  //   { id: 3, task: "Grow Beard", completed: false }
-  // ];
 
   useEffect(() => {
     window.localStorage.setItem('todos', JSON.stringify(todos));
