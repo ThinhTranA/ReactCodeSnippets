@@ -2,7 +2,12 @@
 * Poke API   
 https://pokeapi.co/
 
+
 # Projects:
+## Context app:
+<img src="IMAGES/contextapp.gif">
+
+
 ## Dad jokes:
 <img src="IMAGES/dadjokes.gif">
 
