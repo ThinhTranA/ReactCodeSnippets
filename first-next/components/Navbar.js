@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div style={styles}>
-      <Link href="/about">
+      <Link href="/">
         <a>Home page</a>
       </Link>
       <Link href="/about">
