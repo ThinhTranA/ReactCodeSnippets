@@ -1,5 +1,5 @@
 const AboutPage = () => {
-    console.log("#############tseljflak################");
+    console.log("#############running about ################");
     return(
         <h1>THIS IS THE ABOUT PAGE!!</h1>
     )
