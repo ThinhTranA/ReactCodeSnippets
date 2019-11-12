@@ -1,7 +1,11 @@
+import Navbar from '../components/Navbar'
+
 const ContactPage = () => {
-    console.log("####runing contact page")
     return(
-        <h1>THIS IS THE context PAGE!!</h1>
+        <>
+        <Navbar/>
+        <h1>THIS IS THE CONTACT PAGE!!</h1>
+        </>
     )
 };
 export default ContactPage;
